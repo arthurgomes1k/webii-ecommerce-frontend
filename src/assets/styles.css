@@ -1,0 +1,116 @@
+/* Reset de estilos para garantir uma base consistente */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globais para o corpo do documento */
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #171717;
+  color: #f0f0f0;
+}
+
+/* Estilos para os botões comuns usando classes do Bootstrap */
+.btn {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn.btn-primary {
+  background-color: #8AD5DD;
+  border-color: #8AD5DD;
+  color: #091D1F;
+}
+
+.btn.btn-primary:hover {
+  background-color: #9cf5ff;
+  border-color: #9cf5ff;
+  color: #091D1F;
+}
+
+.btn.btn-danger {
+  background-color: #7F2536;
+  border-color: #7F2536;
+  color: #DCF2F5;
+}
+
+.btn.btn-danger:hover {
+  background-color: #d43d59;
+  border-color: #d43d59;
+  color: #091D1F;
+}
+
+a.btn.btn-primary.btn-sm.mr-2 {
+  background-color: #8AD5DD;
+  border-color: #8AD5DD;
+  color: #091D1F;
+}
+
+a.btn.btn-primary.btn-sm.mr-2:hover {
+  background-color: #9cf5ff;
+  border-color: #9cf5ff;
+  text-decoration: none;
+}
+
+button.btn.btn-danger.btn-sm {
+  background-color: #7F2536;
+  border-color: #7F2536;
+  color: #DCF2F5;
+}
+
+button.btn.btn-danger.btn-sm:hover {
+  background-color: #d43d59;
+  border-color: #d43d59;
+  color: #091D1F;
+}
+
+/* Estilos para um botão de sucesso (verde) */
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* Estilos para cabeçalhos (títulos) */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+/* Estilos para caixas de mensagem de erro */
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* Estilos para caixas de mensagem de sucesso */
+.success-message {
+  color: #28a745;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.form-group {
+  padding: 15px;
+}
+
+.mt-5 {
+  position: relative;
+  height: 100vh;
+}
